@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'disciplina_store.dart';
-import 'disciplina.dart';
+import '../../stores/disciplina_store.dart';
+import '../../models/disciplina.dart';
 
 class DisciplinaScreen extends StatelessWidget {
   final DisciplinaStore _disciplinaStore = DisciplinaStore();

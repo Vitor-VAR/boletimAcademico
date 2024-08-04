@@ -1,6 +1,6 @@
 import 'package:mobx/mobx.dart';
-import 'database_helper.dart';
-import 'nota.dart';
+import '../models/database_helper.dart';
+import '../models/nota.dart';
 
 part 'nota_store.g.dart';
 

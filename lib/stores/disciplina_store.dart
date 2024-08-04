@@ -1,6 +1,6 @@
 import 'package:mobx/mobx.dart';
-import 'database_helper.dart';
-import 'disciplina.dart';
+import '../models/database_helper.dart';
+import '../models/disciplina.dart';
 
 part 'disciplina_store.g.dart';
 

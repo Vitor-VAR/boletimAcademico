@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'nota_store.dart';
-import 'disciplina_store.dart';
-import 'disciplina.dart';
-import 'nota.dart';
+import '../../models/disciplina.dart';
+import '../../stores/nota_store.dart';
+import '../../stores/disciplina_store.dart';
+import '../../models/nota.dart';
 
 class RelatorioScreen extends StatelessWidget {
   final NotaStore _notaStore = NotaStore();
